@@ -8,9 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit{
 
   @Input()
-  photoCover:string="https://sferaone.es/wp-content/uploads/2023/02/placeholder-1.png"
+  photoCover:string=""
   @Input()
-  cardTitle:string="NOVO INVOCACAO DO MAL ANUNCIADO"
+  cardTitle:string=""
 
   constructor() { }
 
